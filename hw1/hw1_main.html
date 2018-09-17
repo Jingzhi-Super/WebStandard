@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css"  href="css/hw1.css"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<title>Jingzhi Wang personal page demo</title>
+<body>
+<div id="page">
+	<div id='header'>
+		<div id = "logo"><img class = "logoimage" src="img/photo.jpg" alt="My photo" style="width:100px;height:100px;border:0;"/>
+		</div>
+
+		<ul class="tnav">
+		<li><a onclick = "javascript:document.getElementById('content').src='page/hw1_5.html'">My resume</a></li>
+		<li><a onclick = "javascript:document.getElementById('content').src='page/hw1_6.html'">About this site</a></li>
+		</ul>
+		<svg  xmlns="http://www.w3.org/2000/svg" height="100"; width="200";>
+			<defs>
+				<path id="path1" d="M 0 40 q 100 100 200 -60" />
+			</defs>
+			<text x="0" y="0" font-family="Arial" stroke="Red">
+			<textPath xlink:href="#path1" class="invisible" >
+				Welcome to my page
+			</textPath>
+			</text>
+		</svg>
+
+	</div>
+
+
+<div id="snav">
+	<ul>
+	<li class='courses'><a onclick = "javascript:document.getElementById('content').src='page/hw1_2.html'">
+		<img src="img/algorithm.jpeg" alt="HTML tutorial" style="width:42px;height:42px;border:0;">
+		</a><span>Algorithms</span></li>
+	<li class='courses'><a onclick = "javascript:document.getElementById('content').src='page/hw1_3.html'">
+		<img src="img/web.jpeg" alt="HTML tutorial" style="width:42px;height:42px;border:0;">
+		</a>Web</li>
+	<li class='courses'><a onclick = "javascript:document.getElementById('content').src='page/hw1_4.html'">
+		<img src="img/iv.jpeg" alt="HTML tutorial" style="width:42px;height:42px;border:0;">
+		</a>Visualization</li>
+	</ul>
+</div>
+
+<iframe id="content" src="page/hw1_6.html"> </iframe>
+
+<div id="footer">
+	<footer>
+		<p>Posted by: Jingzhi Wang</p>
+		<p>Contact information: jiw154@pitt.edu</p>
+	</footer>
+</div>
+
+</div> <!-- page -->
+
+</body>
+
+</html>

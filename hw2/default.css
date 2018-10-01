@@ -1,0 +1,30 @@
+.free		{ color: black; }
+.selected	{ text-decoration: line-through; 
+			background-color: #ffdddd;}
+* html .selected	{ color:red;}
+.plan		{ border-width: thin; 
+			border-style: solid; 
+			padding: 10px; 
+			background-color: #eeeeff; 
+			width: 270px;
+			filter:alpha(opacity=50);
+			-moz-opacity:0.5;
+			opacity: 0.5;}
+.chosen 	{color: black; 
+			font-size: 12pt; 
+			list-style-type: square;}
+#inst{
+	position:relative;
+	width:65%;
+}			
+#selectedFood{
+	position:fixed;
+	top:0;
+	right:0;
+}
+
+* html #selectedFood{
+	position:absolute;
+	top:0;
+	right:0;
+}				
